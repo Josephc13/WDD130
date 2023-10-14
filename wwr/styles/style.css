@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 body{
     color:none;
+    margin: 0;
+    padding: 0;
 }
 #content{
     margin:0 auto;
 }
 nav a{
     text-align: center;
-    color:#95AEBF;
+    color:#00eeff;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg{
     text-align: center;
@@ -20,57 +24,69 @@ main section{
 }
 #background{
     height:725px;
-    background-color:#95AEBF;
+    background-color:#a2a5a8;
 }
 body{
     background:whitesmoke;
 }
 header{
-    background-color:#416073 ; 
+    background-color:#2e3336 ; 
  }
 nav a:hover{
-    background-color:#B66D0D;
+    background-color:#00eeff;
     color: white;
 }
 .book, .join{
-    background-color:#B66D0D ;
+    background-color:#ff8c00 ;
     color:white;
     text-decoration: none;
+    font-size: 2em;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
-    background-color: #B66D0D;
+    background-color: #00eeff;
     color:white;
 }
 .msg{
     background:#95AEBF ;
+    line-height:1.5em;
+    padding: 35px;
    
 }
 .msg h2{
     color:#416073;
+    
 }
 .msg p{
-    color:#B66D0D
+    color:#00eeff
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
-    background:#95AEBF;
-    color: #416073;
+    background:#2e3336;
+    color: #00eeff;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top:200px;
 }
 footer a{
-    color:#B66D0D;
+    color:#00eeff;
     text-decoration: none;
 }
 footer a:hover{
-    color:#416073;
+    color:#00eeff;
 }
 footer p a:hover{
     text-decoration:underline;
 }
 h4{
-    color:#416073
+    color:#00eeff
 }
 .icon{
     width: 80px;
+    padding-top 10px;
 }
 #hero-img{
     width:100%;
@@ -80,4 +96,28 @@ h4{
 }
 div{
     max-width: 1600px;
+}
+.home-title{
+    font-size:2em;
+    margin-top: 10px;
+
+}
+h2 {
+    margin: 0;
+}
+#logo_link{
+    padding-top:5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin:200px 0;
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing:border-box;
 }
